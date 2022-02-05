@@ -11,6 +11,12 @@
 		F8B471C927AC701500D6094D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B471C827AC701500D6094D /* ContentView.swift */; };
 		F8B471CB27AC701600D6094D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B471CA27AC701600D6094D /* Assets.xcassets */; };
 		F8B471CE27AC701600D6094D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B471CD27AC701600D6094D /* Preview Assets.xcassets */; };
+		F8B471D527AC72A900D6094D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B471D427AC72A900D6094D /* DataManager.swift */; };
+		F8B471D727AC744500D6094D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B471D627AC744500D6094D /* Person.swift */; };
+		F8B471D927AC828F00D6094D /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B471D827AC828F00D6094D /* ContactsView.swift */; };
+		F8B471DB27AC82BA00D6094D /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B471DA27AC82BA00D6094D /* NumbersView.swift */; };
+		F8D4CA5D27AD7E2000FCD941 /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4CA5C27AD7E2000FCD941 /* ContactInfoView.swift */; };
+		F8D4CA5F27AD87A900FCD941 /* PhoneEmailBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4CA5E27AD87A900FCD941 /* PhoneEmailBlockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		F8B471C827AC701500D6094D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8B471CA27AC701600D6094D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B471CD27AC701600D6094D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8B471D427AC72A900D6094D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F8B471D627AC744500D6094D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F8B471D827AC828F00D6094D /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		F8B471DA27AC82BA00D6094D /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
+		F8D4CA5C27AD7E2000FCD941 /* ContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
+		F8D4CA5E27AD87A900FCD941 /* PhoneEmailBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneEmailBlockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,8 @@
 		F8B471BA27AC701500D6094D = {
 			isa = PBXGroup;
 			children = (
+				F8D4CA5E27AD87A900FCD941 /* PhoneEmailBlockView.swift */,
+				F8D4CA5C27AD7E2000FCD941 /* ContactInfoView.swift */,
 				F8B471C527AC701500D6094D /* ContactList */,
 				F8B471C427AC701500D6094D /* Products */,
 			);
@@ -53,6 +67,10 @@
 			children = (
 				F8B471C627AC701500D6094D /* ContactListApp.swift */,
 				F8B471C827AC701500D6094D /* ContentView.swift */,
+				F8B471DA27AC82BA00D6094D /* NumbersView.swift */,
+				F8B471D827AC828F00D6094D /* ContactsView.swift */,
+				F8B471D427AC72A900D6094D /* DataManager.swift */,
+				F8B471D627AC744500D6094D /* Person.swift */,
 				F8B471CA27AC701600D6094D /* Assets.xcassets */,
 				F8B471CC27AC701600D6094D /* Preview Content */,
 			);
@@ -138,6 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B471C927AC701500D6094D /* ContentView.swift in Sources */,
+				F8D4CA5D27AD7E2000FCD941 /* ContactInfoView.swift in Sources */,
+				F8B471D527AC72A900D6094D /* DataManager.swift in Sources */,
+				F8B471D727AC744500D6094D /* Person.swift in Sources */,
+				F8D4CA5F27AD87A900FCD941 /* PhoneEmailBlockView.swift in Sources */,
+				F8B471DB27AC82BA00D6094D /* NumbersView.swift in Sources */,
+				F8B471D927AC828F00D6094D /* ContactsView.swift in Sources */,
 				F8B471C727AC701500D6094D /* ContactListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
