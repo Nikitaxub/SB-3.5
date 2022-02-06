@@ -11,16 +11,8 @@ struct PhoneEmailBlockView: View {
     let person: Person
     
     var body: some View {
-        HStack {
-            Image(systemName: "phone")
-                .foregroundColor(.blue)
-            Text("\(person.phone)")
-        }
-        HStack {
-            Image(systemName: "tray")
-                .foregroundColor(.blue)
-            Text("\(person.email)")
-        }
+        Label(person.phone, systemImage: "phone")
+        Label(person.email, systemImage: "tray")
     }
 }
 

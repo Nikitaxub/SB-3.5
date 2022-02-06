@@ -64,13 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				F8B471C627AC701500D6094D /* ContactListApp.swift */,
-				F8D4CA5C27AD7E2000FCD941 /* ContactInfoView.swift */,
 				F8B471C827AC701500D6094D /* ContentView.swift */,
 				F8B471DA27AC82BA00D6094D /* NumbersView.swift */,
 				F8B471D827AC828F00D6094D /* ContactsView.swift */,
+				F8D4CA5C27AD7E2000FCD941 /* ContactInfoView.swift */,
+				F8D4CA5E27AD87A900FCD941 /* PhoneEmailBlockView.swift */,
 				F8B471D427AC72A900D6094D /* DataManager.swift */,
 				F8B471D627AC744500D6094D /* Person.swift */,
-				F8D4CA5E27AD87A900FCD941 /* PhoneEmailBlockView.swift */,
 				F8B471CA27AC701600D6094D /* Assets.xcassets */,
 				F8B471CC27AC701600D6094D /* Preview Content */,
 			);
@@ -301,7 +301,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,7 +331,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

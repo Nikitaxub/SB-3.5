@@ -13,9 +13,7 @@ struct NumbersView: View {
     var body: some View {
         NavigationView {
             List(persons) { person in
-                Section(
-                    header: Text(person.name)
-                ) {
+                Section(person.name) {
                     PhoneEmailBlockView(person: person)
                 }
             }
